@@ -28,7 +28,6 @@ let characters = [
 class CharacterService {
 	constructor() {}
 	getAllCharacters() {
-		//potenioly missing an if statment
 		return new Promise((resolve, reject) => {
 			resolve(characters);
 		});

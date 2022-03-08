@@ -3,10 +3,12 @@ class Computer {
 		this.make = make;
 		this.model = model;
 		this.driveCapacity = capacity;
-		batteryPercent: Number;
+		constructor(number){
+			this.batteryPercent = number;
+		}
 		status: Boolean;
 	}
-	get batteryPercent() {
+	get batteryPercent(){
 		let result = `${this.batteryPercent}%`;
 		return result;
 	}
