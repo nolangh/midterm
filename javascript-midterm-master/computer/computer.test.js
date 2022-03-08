@@ -1,4 +1,4 @@
-describe('Computer', () => {
+/*describe('Computer', () => {
   let computer;
 
   describe('constructor', () => {
@@ -63,4 +63,4 @@ describe('Computer', () => {
       expect(result).toEqual('ON');
     });
   });
-});
+}); */
